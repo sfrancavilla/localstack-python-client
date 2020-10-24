@@ -19,7 +19,7 @@ class Session(object):
         aws_session_token="token",
         region_name="us-east-1",
         botocore_session=None,
-        profile_name="default",
+        profile_name="localstack",
         localstack_host=None,
     ):
         self.env = "local"
